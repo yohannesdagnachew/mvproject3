@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
 
-    </style>
-    
+    <style>
+      .y {
+        background: silver;
+      }
+      .img {
+        display: inline;
+        border-radius: 4px;
+        padding: 10px;
+        width: 50px;
+      }
+      .title {
+        display: inline;
+        font-size: 20px;
+        align-content: top;
+        
+      }
       
-    }
+    </style>
   </head>
-  <body>
-    <header id = "header">
-      <img id = "header-img"src="" alt="Original Trombones" />
-     <h1>Original Trombones</h1> 
+  <body class="y">
+    <header id="header">
+      <img
+        class="img"
+        id="header-img"
+        src="scuderia-ferrari-logo-800x1050.png"
+        alt="Original Trombones"
+      />
+
+      <h1 class="title">Original Trombones</h1>
+      <nav class="nav-link">
+        <a href="index2.html">Features</a>
+        <a href="index.html">How it Works</a>
+        <a href="index.html">Pricing</a>
+      </nav>
     </header>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <input type="email" id="email" placeholder="Enter your email" />
+      <input id="submit" type="submit" />
+    </form>
+
+    <video id="video" width="320" height="240" controls>
+      <source
+        src="https://www.youtube.com/watch?v=apGV9Kg7ics&t=2704s"
+        type="video/mp4"
+      />
+    </video>
   </body>
 </html>
